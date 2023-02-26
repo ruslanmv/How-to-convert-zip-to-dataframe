@@ -4,7 +4,7 @@ Hello everyone, today I am interested to show an interesting trick to include a 
 
 Sometimes when you are creating a unstructured database where you require include photos, videos, word documents, excel files or simple binary files.
 
-There are plenty of methods to do this.  The method that I will persue is zip all the files that you want to storage then convert into a 
+There are plenty of methods to do this.  The method that I will persue is zip all the files that you want to storage then convert into pandas  dataframe.
 
 # Getting files of a library
 
@@ -245,7 +245,7 @@ type(byt)
 ```
 
     b'PK\x03\x04\x14\x00\x00\x00\x08\x00'
-
+    
     bytes
 
 
@@ -282,7 +282,7 @@ type(base64_message)
 ```
 
     UEsDBBQAAA
-
+    
     str
 
 Line 3: We encode string, cast to byte object.
